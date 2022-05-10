@@ -320,7 +320,7 @@ html {
     font-size: 3rem;
     font-weight: bold;
     margin-top: 40px;
-  
+
 }
 
 .titulos-preguntas {
@@ -329,7 +329,7 @@ html {
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
-    
+
 }
 
 .respuestas-preguntas {
@@ -382,7 +382,7 @@ html {
     margin: 20px;
 }
 
-.tituloh3-contactanos{
+.tituloh3-contactanos {
     font-family: 'Poppins', sans-serif;
     color: #FF7BA9;
     font-weight: bold;
@@ -390,7 +390,7 @@ html {
     padding: 20px;
 }
 
-.detalle-campocontactanos{
+.detalle-campocontactanos {
     color: #019267;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -398,28 +398,28 @@ html {
     padding: 5px;
 }
 
-.boton-elegirarchivo{
+.boton-elegirarchivo {
     color: #019267;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-padding: 5px;
+    padding: 5px;
 }
 
-.botonenviar-contacto{
+.botonenviar-contacto {
     color: white;
     background-color: #FF7BA9;
     border: #FF7BA9;
     margin-top: 15px;
     font-size: 2rem;
     margin-bottom: 20px;
-   
+
 }
 
-.titulo-direccion{
+.titulo-direccion {
     font-family: 'Poppins', sans-serif;
     color: #019267;
     font-size: 2rem;
-    
+
     margin-top: 10px;
 }
 
@@ -427,21 +427,22 @@ padding: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     padding-left: 20px;
-    }
+}
 
-.mapa-contacto{
+.mapa-contacto {
     width: 80%;
     height: 70%;
     list-style: none;
     margin-bottom: 20px;
-   padding-left: 20px;
+    padding-left: 20px;
 }
-.whatsapp-btn:hover{
+
+.whatsapp-btn:hover {
     transform: scale(1.1);
 }
 
-@keyframes efecto{
-    0%{
+@keyframes efecto {
+    0% {
         box-shadow: 0 0 0 3px #FF7BA9;
     }
 }
