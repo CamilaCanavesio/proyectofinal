@@ -371,7 +371,12 @@ html {
     text-align: center;
     animation: efecto 1.2s infinite;
     border-radius: 50px;
+    background-color: white;
 
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.1);
 }
 
 @keyframes efecto{
