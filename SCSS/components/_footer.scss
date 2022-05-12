@@ -1,0 +1,126 @@
+
+@import '../base/variables';
+@import '../base/listas';
+
+.footer-fondo {
+    background-color: $bg-color-general;
+
+    .tituloh5-horario {
+        font-size: 3rem;
+        color: $ft-color-titulo1;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: left;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .menu-horarios {
+        margin-left: 20px;
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+
+        .li-menuhorarios {
+            list-style: none;
+        }
+    }
+
+    .tituloh5-newsletter {
+        font-size: 3rem;
+        color: $ft-color-titulo1;
+        font-weight: bold;
+        margin-top: 20px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: left;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .parrafo-newsletter {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .texto-newsletter {
+        outline: none;
+        border: solid 2px #FF7BA9;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .boton-suscribite {
+        background-color: #FF7BA9;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        border: solid 2px #FF7BA9;
+        font-size: 20px;
+    }
+
+    .tituloh5-contacto {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: $ft-color-titulo1;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .menu-contacto {
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+
+        .li-contacto {
+            font-size: 20px;
+            list-style: none;
+
+            .strong-contacto {
+                color: #FF7BA9;
+                font-weight: bold;
+                text-shadow: black 1px;
+            }
+        }
+    }
+
+    /*Redes SOciales*/
+
+    .redes-sociales {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        margin: 20px;
+
+        .whatsapp-1 {
+            display: flex;
+            align-items: right;
+            height: 30px;
+
+        }
+    }
+    
+    /*Sección Copyright*/
+
+    .copyright {
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: left;
+        color: black;
+        font-size: 1rem;
+        background: rgb(251, 251, 251);
+        background: linear-gradient(90deg, rgba(251, 251, 251, 1) 0%, rgba(45, 179, 139, 0.4462827367275035) 54%, rgba(1, 146, 103, 1) 100%);
+
+        .titulo-h6 {
+            font-size: 1rem;
+            align-items: left;
+
+        }
+    }
+
+}

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/*Reseteo de HTML5*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*Cabecera*/
+/*Variables que habitualmente comparten todos los html*/
+.cabecera {
+  background-color: white;
+  /*Navegable*/
+}
+.cabecera .section-cabecera {
+  font-family: "Fredoka One", cursive;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.cabecera .section-cabecera .titulo-h1 {
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  display: inline;
+  align-items: center;
+  color: #019267;
+}
+.cabecera .section-cabecera .imagen-logo {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+.cabecera .menu-navegable {
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+.cabecera .menu-navegable .li-navegable {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 8px;
+}
+.cabecera .menu-navegable .li-navegable:hover {
+  background-color: #019267;
+  padding: auto;
+}
+.cabecera .menu-navegable .buscar-boton {
+  outline: none;
+  border: solid 1px #019267;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+.cabecera .menu-navegable .buscar-boton2 {
+  color: #019267;
+  border-color: #019267;
+  font-family: "Poppins", sans-serif;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.cabecera .menu-navegable .buscar-boton2:hover {
+  background-color: #FF7BA9;
+  border: solid #FF7BA9;
+  color: white;
+}
+
+/*Variables que habitualmente comparten todos los html*/
+/*Font Family*/
+.tituloh5-horario {
+  font-size: 3rem;
+}
+
+.footer-fondo {
+  background-color: whitesmoke;
+  /*Redes SOciales*/
+  /*Sección Copyright*/
+}
+.footer-fondo .tituloh5-horario {
+  font-size: 3rem;
+  color: #019267;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: left;
+  font-family: "Poppins", sans-serif;
+}
+.footer-fondo .menu-horarios {
+  margin-left: 20px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.footer-fondo .menu-horarios .li-menuhorarios {
+  list-style: none;
+}
+.footer-fondo .tituloh5-newsletter {
+  font-size: 3rem;
+  color: #019267;
+  font-weight: bold;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: left;
+  font-family: "Poppins", sans-serif;
+}
+.footer-fondo .parrafo-newsletter {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.footer-fondo .texto-newsletter {
+  outline: none;
+  border: solid 2px #FF7BA9;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.footer-fondo .boton-suscribite {
+  background-color: #FF7BA9;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border: solid 2px #FF7BA9;
+  font-size: 20px;
+}
+.footer-fondo .tituloh5-contacto {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  color: #019267;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+}
+.footer-fondo .menu-contacto {
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.footer-fondo .menu-contacto .li-contacto {
+  font-size: 20px;
+  list-style: none;
+}
+.footer-fondo .menu-contacto .li-contacto .strong-contacto {
+  color: #FF7BA9;
+  font-weight: bold;
+  text-shadow: black 1px;
+}
+.footer-fondo .redes-sociales {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 20px;
+}
+.footer-fondo .redes-sociales .whatsapp-1 {
+  display: flex;
+  align-items: right;
+  height: 30px;
+}
+.footer-fondo .copyright {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: left;
+  color: black;
+  font-size: 1rem;
+  background: rgb(251, 251, 251);
+  background: linear-gradient(90deg, rgb(251, 251, 251) 0%, rgba(45, 179, 139, 0.4462827367) 54%, rgb(1, 146, 103) 100%);
+}
+.footer-fondo .copyright .titulo-h6 {
+  font-size: 1rem;
+  align-items: left;
+}
+
+.seccion-principal {
+  background-color: #019267;
+  background-size: cover;
+  position: relative;
+}
+.seccion-principal .fondo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion-principal .fondo-principal .titulo-h2 {
+  background-color: white;
+  font-size: 5rem;
+  font-family: "Poppins", sans-serif;
+  color: #019267;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 8%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.seccion-principal .fondo-principal .parrafo-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  background-color: white;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+.seccion-principal .fondo-principal .boton-main {
+  background-color: #FF7BA9;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #FF7BA9;
+  box-shadow: inset white;
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.seccion-principal .fondo-principal .boton-main:hover {
+  background-color: white;
+  color: #FF7BA9;
+  border: solid 1px #FF7BA9;
+}
+
+/*Variables que habitualmente comparten todos los html*/
+
+/*# sourceMappingURL=style.css.map */
