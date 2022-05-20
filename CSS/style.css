@@ -11,6 +11,43 @@ html {
 
 /*Cabecera*/
 /*Variables que habitualmente comparten todos los html*/
+/*Mapas*/
+/*Aplicado en _contenidoprincipal.scss:
+
+.boton-main
+.buscar-boton
+.buscar-boton2
+*/
+/*Extensiones - Extends*/
+/*  % = placeholder */
+/*Aplicado en _footer.scss:
+
+.tituloh5-horario
+.tituloh5-newsletter
+.tituloh5-contacto
+.copyright*/
+.footer-fondo .copyright, .footer-fondo .tituloh5-contacto, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-horario {
+  display: flex;
+  justify-content: left;
+}
+
+/*Aplicado en _contenidoprincipal.scss:
+
+.fondo-principal
+.titulo-h2
+*/
+.seccion-principal .fondo-principal .titulo-h2, .seccion-principal .fondo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mixins*/
+/*Aplicado en _cabecera.scss:
+.section-cabecera
+.titulo-h1
+.imagen-logo
+*/
 .cabecera {
   background-color: white;
   /*Navegable*/
@@ -18,14 +55,14 @@ html {
 .cabecera .section-cabecera {
   font-family: "Fredoka One", cursive;
   margin: 10px;
-  display: flex;
   justify-content: center;
+  display: flex;
   justify-items: center;
 }
 .cabecera .section-cabecera .titulo-h1 {
   font-size: 8rem;
-  display: flex;
   justify-content: center;
+  display: flex;
   display: inline;
   align-items: center;
   color: #019267;
@@ -33,9 +70,9 @@ html {
 .cabecera .section-cabecera .imagen-logo {
   width: 200px;
   height: 200px;
+  justify-content: center;
   display: flex;
   align-items: center;
-  justify-content: center;
   display: inline;
 }
 .cabecera .menu-navegable {
@@ -78,6 +115,30 @@ html {
   font-size: 3rem;
 }
 
+/*Extensiones - Extends*/
+/*  % = placeholder */
+/*Aplicado en _footer.scss:
+
+.tituloh5-horario
+.tituloh5-newsletter
+.tituloh5-contacto
+.copyright*/
+.footer-fondo .copyright, .footer-fondo .tituloh5-contacto, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-horario {
+  display: flex;
+  justify-content: left;
+}
+
+/*Aplicado en _contenidoprincipal.scss:
+
+.fondo-principal
+.titulo-h2
+*/
+.seccion-principal .fondo-principal .titulo-h2, .seccion-principal .fondo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-fondo {
   background-color: whitesmoke;
   /*Redes SOciales*/
@@ -90,8 +151,6 @@ html {
   margin-left: 20px;
   margin-top: 20px;
   padding-top: 20px;
-  display: flex;
-  justify-content: left;
   font-family: "Poppins", sans-serif;
 }
 .footer-fondo .menu-horarios {
@@ -109,8 +168,6 @@ html {
   font-weight: bold;
   margin-top: 20px;
   padding-top: 20px;
-  display: flex;
-  justify-content: left;
   font-family: "Poppins", sans-serif;
 }
 .footer-fondo .parrafo-newsletter {
@@ -140,8 +197,6 @@ html {
   padding-left: 10px;
   padding-top: 20px;
   margin-top: 20px;
-  display: flex;
-  justify-content: left;
 }
 .footer-fondo .menu-contacto {
   padding: 20px;
@@ -169,8 +224,6 @@ html {
 }
 .footer-fondo .copyright {
   font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: left;
   color: black;
   font-size: 1rem;
   background: rgb(251, 251, 251);
@@ -181,24 +234,47 @@ html {
   align-items: left;
 }
 
+/*Mapas*/
+/*Aplicado en _contenidoprincipal.scss:
+
+.boton-main
+.buscar-boton
+.buscar-boton2
+*/
+/*Extensiones - Extends*/
+/*  % = placeholder */
+/*Aplicado en _footer.scss:
+
+.tituloh5-horario
+.tituloh5-newsletter
+.tituloh5-contacto
+.copyright*/
+.footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright {
+  display: flex;
+  justify-content: left;
+}
+
+/*Aplicado en _contenidoprincipal.scss:
+
+.fondo-principal
+.titulo-h2
+*/
+.seccion-principal .fondo-principal .titulo-h2, .seccion-principal .fondo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .seccion-principal {
   background-color: #019267;
   background-size: cover;
   position: relative;
-}
-.seccion-principal .fondo-principal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .seccion-principal .fondo-principal .titulo-h2 {
   background-color: white;
   font-size: 5rem;
   font-family: "Poppins", sans-serif;
   color: #019267;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
   margin-top: 8%;
   margin-left: 10%;
@@ -236,5 +312,42 @@ html {
 }
 
 /*Variables que habitualmente comparten todos los html*/
+/*Mapas*/
+/*Aplicado en _contenidoprincipal.scss:
+
+.boton-main
+.buscar-boton
+.buscar-boton2
+*/
+/*Extensiones - Extends*/
+/*  % = placeholder */
+/*Aplicado en _footer.scss:
+
+.tituloh5-horario
+.tituloh5-newsletter
+.tituloh5-contacto
+.copyright*/
+.footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright {
+  display: flex;
+  justify-content: left;
+}
+
+/*Aplicado en _contenidoprincipal.scss:
+
+.fondo-principal
+.titulo-h2
+*/
+.seccion-principal .fondo-principal, .seccion-principal .fondo-principal .titulo-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mixins*/
+/*Aplicado en _cabecera.scss:
+.section-cabecera
+.titulo-h1
+.imagen-logo
+*/
 
 /*# sourceMappingURL=style.css.map */

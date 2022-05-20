@@ -1,0 +1,29 @@
+/*Extensiones - Extends*/
+/*  % = placeholder */
+
+
+/*Aplicado en _footer.scss:
+
+.tituloh5-horario
+.tituloh5-newsletter
+.tituloh5-contacto
+.copyright*/
+
+%flex{
+
+    display: flex;
+    justify-content: left;
+    
+}
+
+/*Aplicado en _contenidoprincipal.scss:
+
+.fondo-principal
+.titulo-h2
+*/
+
+%main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

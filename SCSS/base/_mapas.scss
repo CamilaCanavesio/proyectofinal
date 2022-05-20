@@ -1,0 +1,30 @@
+/*Mapas*/
+
+/*Aplicado en _contenidoprincipal.scss:
+
+.boton-main
+.buscar-boton
+.buscar-boton2
+*/
+
+$boton1: (
+    /*Key - Value (valor)*/
+    outline:none,
+    border:solid 1px #019267,
+    font-size-boton: 10px,
+);
+
+$boton2: (
+    color-boton: #019267,
+    border-boton: #019267,
+);
+
+$boton-main: (
+    bg-botonmain: #FF7BA9,
+    color-boton: white,
+    display: flex,
+    justify-boton:center,
+    border-botonmain: solid 1px #FF7BA9,
+    shadow-boton:inset white,
+
+);

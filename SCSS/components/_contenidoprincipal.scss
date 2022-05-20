@@ -1,3 +1,7 @@
+@import '../base/mapas';
+@import '../base/extends';
+
+
 .seccion-principal {
 
     background-color: #019267;
@@ -5,18 +9,15 @@
     position: relative;
 
     .fondo-principal {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %main;
+
 
         .titulo-h2 {
             background-color: white;
             font-size: 5rem;
             font-family: 'Poppins', sans-serif;
             color: #019267;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %main;
             padding: 20px;
             margin-top: 8%;
             margin-left: 10%;
@@ -34,15 +35,15 @@
         }
 
         .boton-main {
-            background-color: #FF7BA9;
-            color: white;
+            background-color: map-get($boton-main, bg-botonmain);
+            color: map-get($boton-main, color-boton);
             font-family: 'Poppins', sans-serif;
             font-weight: bold;
-            display: flex;
-            justify-content: center;
+            display: map-get($boton-main, display);
+            justify-content: map-get($boton-main, justify-boton);
             align-items: center;
-            border: solid 1px #FF7BA9;
-            box-shadow: inset white;
+            border: map-get($boton-main, border-botonmain);
+            box-shadow: map-get($boton-main, shadow-boton);
             font-size: 3rem;
             margin-top: 5%;
             margin-bottom: 10%;

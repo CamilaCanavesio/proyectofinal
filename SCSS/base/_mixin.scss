@@ -1,0 +1,14 @@
+/*Mixins*/
+
+
+/*Aplicado en _cabecera.scss:
+.section-cabecera
+.titulo-h1
+.imagen-logo
+*/
+
+@mixin justify ($justify , $display) {
+
+    justify-content: $justify;
+    display: $display;
+}
