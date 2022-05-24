@@ -1,0 +1,41 @@
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/mapas';
+@import '../base/mixin';
+
+/*MAIN - Preguntas Frecuentes*/
+
+.fondo-preguntasfrecuentes {
+
+    .padding-preguntasfrecuentes {
+
+        .tituloh3-preguntas {
+            font-family: 'Poppins', sans-serif;
+            color: #019267;
+            font-size: 3rem;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+
+        .titulos-preguntas {
+            font-family: 'Poppins', sans-serif;
+            color: #FF7BA9;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .respuestas-preguntas {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            padding: 20px;
+        }
+
+
+
+
+    }
+
+
+}

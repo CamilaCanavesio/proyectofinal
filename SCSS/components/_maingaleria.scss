@@ -1,0 +1,28 @@
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/mapas';
+@import '../base/mixin';
+
+
+/*MAIN - Galeria*/
+
+.main-galeria {
+
+    background-color: #019267;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-left: 20px;
+
+    .fotos-galeria {
+        margin-top: 10px;
+        width: 350px;
+        height: auto;
+        background-color: white;
+        padding: 5px;
+
+    }
+}

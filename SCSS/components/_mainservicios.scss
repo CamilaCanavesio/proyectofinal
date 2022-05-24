@@ -1,0 +1,77 @@
+@import '../base/variables';
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/mapas';
+@import '../base/mixin';
+
+
+/*Main Servicios*/
+
+.servicio-guarderia {
+    @extend %flex;
+
+
+
+    .servicio-1 {
+        width: 500px;
+        margin: 20px 0px 20px 20px;
+        padding: 5px;
+        background-color: #FF7BA9;
+
+    }
+
+    .titulo-servicio1 {
+        font-family: 'Poppins', sans-serif;
+        color: #019267;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 40px;
+        padding-right: 50px;
+        @extend %flex;
+
+
+    }
+
+    .parrafo-servicio1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        @extend %flex;
+        padding-right: 20px;
+        text-align: start;
+
+    }
+}
+
+
+.servicio-club {
+    @extend %flex;
+
+    .servicio-2 {
+        width: 500px;
+        margin: 20px 0px 20px 20px;
+        padding: 5px;
+        background-color: #FF7BA9;
+
+    }
+
+    .titulo-servicio2 {
+        font-family: 'Poppins', sans-serif;
+        color: #019267;
+        font-size: 3rem;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-right: 50px;
+        @extend %flex;
+
+    }
+
+    .parrafo-servicio2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+       @extend %flex;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        text-align: start;
+
+    }
+}

@@ -107,6 +107,7 @@
 
     .copyright {
         font-family: 'Poppins', sans-serif;
+        margin-left: 10px;
         @extend %flex;
         color: black;
         font-size: 1rem;
@@ -116,6 +117,7 @@
         .titulo-h6 {
             font-size: 1rem;
             align-items: left;
+            margin-left: 10px;
 
         }
     }
