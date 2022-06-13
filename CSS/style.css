@@ -12,20 +12,6 @@ html {
 /*Cabecera*/
 /*Variables que habitualmente comparten todos los html*/
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .servicio-club .parrafo-servicio2, .servicio-club .titulo-servicio2, .servicio-club, .servicio-guarderia .parrafo-servicio1, .servicio-guarderia .titulo-servicio1, .servicio-guarderia, .footer-fondo .copyright, .footer-fondo .tituloh5-contacto, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-horario {
   display: flex;
   justify-content: left;
@@ -43,11 +29,6 @@ html {
 }
 
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
 .cabecera {
   background-color: white;
   /*Navegable*/
@@ -115,14 +96,6 @@ html {
   font-size: 3rem;
 }
 
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .servicio-club .parrafo-servicio2, .servicio-club .titulo-servicio2, .servicio-club, .servicio-guarderia .parrafo-servicio1, .servicio-guarderia .titulo-servicio1, .servicio-guarderia, .footer-fondo .copyright, .footer-fondo .tituloh5-contacto, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-horario {
   display: flex;
   justify-content: left;
@@ -237,20 +210,6 @@ html {
 }
 
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .servicio-club .parrafo-servicio2, .servicio-club .titulo-servicio2, .servicio-club, .servicio-guarderia .parrafo-servicio1, .servicio-guarderia .titulo-servicio1, .servicio-guarderia, .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright {
   display: flex;
   justify-content: left;
@@ -315,20 +274,6 @@ html {
 
 /*Variables que habitualmente comparten todos los html*/
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .servicio-club .parrafo-servicio2, .servicio-club .titulo-servicio2, .servicio-club, .servicio-guarderia .parrafo-servicio1, .servicio-guarderia .titulo-servicio1, .servicio-guarderia, .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright {
   display: flex;
   justify-content: left;
@@ -346,25 +291,12 @@ html {
 }
 
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
 /*Variables que habitualmente comparten todos los html*/
 /*Font Family*/
 .tituloh5-horario {
   font-size: 3rem;
 }
 
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .servicio-club .parrafo-servicio2, .servicio-club .titulo-servicio2, .servicio-club, .servicio-guarderia .parrafo-servicio1, .servicio-guarderia .titulo-servicio1, .servicio-guarderia, .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright {
   display: flex;
   justify-content: left;
@@ -382,18 +314,7 @@ html {
 }
 
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
 /*MAIN - Nosotros*/
 .tituloh2-sobrenosotros {
   font-size: 5rem;
@@ -481,14 +402,6 @@ html {
   font-size: 3rem;
 }
 
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .servicio-club .parrafo-servicio2, .servicio-club .titulo-servicio2, .servicio-club, .servicio-guarderia .parrafo-servicio1, .servicio-guarderia .titulo-servicio1, .servicio-guarderia, .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright {
   display: flex;
   justify-content: left;
@@ -506,19 +419,7 @@ html {
 }
 
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
-/*Main Servicios*/
 .servicio-guarderia .servicio-1 {
   width: 500px;
   margin: 20px 0px 20px 20px;
@@ -568,14 +469,6 @@ html {
   font-size: 3rem;
 }
 
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright, .servicio-guarderia, .servicio-guarderia .titulo-servicio1, .servicio-guarderia .parrafo-servicio1, .servicio-club, .servicio-club .titulo-servicio2, .servicio-club .parrafo-servicio2 {
   display: flex;
   justify-content: left;
@@ -593,18 +486,7 @@ html {
 }
 
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
 /*MAIN - Preguntas Frecuentes*/
 .fondo-preguntasfrecuentes .padding-preguntasfrecuentes .tituloh3-preguntas {
   font-family: "Poppins", sans-serif;
@@ -632,14 +514,6 @@ html {
   font-size: 3rem;
 }
 
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright, .servicio-guarderia, .servicio-guarderia .titulo-servicio1, .servicio-guarderia .parrafo-servicio1, .servicio-club, .servicio-club .titulo-servicio2, .servicio-club .parrafo-servicio2 {
   display: flex;
   justify-content: left;
@@ -657,18 +531,7 @@ html {
 }
 
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
 /*MAIN - Galeria*/
 .main-galeria {
   background-color: #019267;
@@ -693,14 +556,6 @@ html {
   font-size: 3rem;
 }
 
-/*Extensiones - Extends*/
-/*  % = placeholder */
-/*Aplicado en _footer.scss:
-
-.tituloh5-horario
-.tituloh5-newsletter
-.tituloh5-contacto
-.copyright*/
 .footer-fondo .tituloh5-horario, .footer-fondo .tituloh5-newsletter, .footer-fondo .tituloh5-contacto, .footer-fondo .copyright, .servicio-guarderia, .servicio-guarderia .titulo-servicio1, .servicio-guarderia .parrafo-servicio1, .servicio-club, .servicio-club .titulo-servicio2, .servicio-club .parrafo-servicio2 {
   display: flex;
   justify-content: left;
@@ -718,18 +573,7 @@ html {
 }
 
 /*Mapas*/
-/*Aplicado en _contenidoprincipal.scss:
-
-.boton-main
-.buscar-boton
-.buscar-boton2
-*/
 /*Mixins*/
-/*Aplicado en _cabecera.scss:
-.section-cabecera
-.titulo-h1
-.imagen-logo
-*/
 /*MAIN - Contacto*/
 .fondo-contacto {
   margin: 20px;
